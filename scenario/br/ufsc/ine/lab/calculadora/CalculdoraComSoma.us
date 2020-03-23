@@ -1,0 +1,252 @@
+[
+  {
+    "type": "br.ufsc.leb.uid.scenario.Interacao",
+    "id": "e89ebbc3-94bd-d0fe-8bb4-bcd207654da3",
+    "x": 614,
+    "y": 80,
+    "width": 117,
+    "height": 115,
+    "alpha": 1,
+    "userData": {
+      "model": "PaginaDoGoogle"
+    },
+    "cssClass": "br_ufsc_leb_uid_scenario_Interacao",
+    "ports": [
+      {
+        "name": "input0",
+        "port": "draw2d.InputPort",
+        "locator": "br.ufsc.leb.uid.scenario.TargetLocator"
+      }
+    ],
+    "bgColor": "#FFFFFF",
+    "color": "#000000",
+    "stroke": 1,
+    "radius": 500
+  },
+  {
+    "type": "br.ufsc.leb.uid.scenario.SystemOutput",
+    "id": "5f55de34-45cc-a656-08a8-82d32e8e7abb",
+    "x": 668,
+    "y": 128,
+    "width": 43,
+    "height": 23,
+    "alpha": 1,
+    "userData": {
+      "model": "resultado"
+    },
+    "cssClass": "br_ufsc_leb_uid_scenario_SystemOutput",
+    "composite": "e89ebbc3-94bd-d0fe-8bb4-bcd207654da3",
+    "ports": [],
+    "bgColor": "none",
+    "color": "#FFFFFF",
+    "stroke": 1,
+    "radius": 0,
+    "text": "4",
+    "outlineStroke": 0,
+    "outlineColor": "none",
+    "fontSize": 12,
+    "fontColor": "#000000",
+    "fontFamily": null
+  },
+  {
+    "type": "br.ufsc.leb.uid.scenario.Interacao",
+    "id": "d9b76b46-84e3-4cf1-7bd4-4e46d4b021bb",
+    "x": 301,
+    "y": 64,
+    "width": 188,
+    "height": 144,
+    "alpha": 1,
+    "userData": {
+      "model": "PaginaDoGoogle"
+    },
+    "cssClass": "br_ufsc_leb_uid_scenario_Interacao",
+    "ports": [
+      {
+        "name": "input0",
+        "port": "draw2d.InputPort",
+        "locator": "br.ufsc.leb.uid.scenario.TargetLocator"
+      },
+      {
+        "name": "output0",
+        "port": "draw2d.OutputPort",
+        "locator": "br.ufsc.leb.uid.scenario.ResourceLocator"
+      }
+    ],
+    "bgColor": "#FFFFFF",
+    "color": "#000000",
+    "stroke": 1,
+    "radius": 500
+  },
+  {
+    "type": "br.ufsc.leb.uid.scenario.SystemOutput",
+    "id": "0d1250f2-21d6-44e5-4d29-c9746ee20676",
+    "x": 337,
+    "y": 140.5999984741211,
+    "width": 113,
+    "height": 23,
+    "alpha": 1,
+    "userData": {
+      "model": "pesquisa"
+    },
+    "cssClass": "br_ufsc_leb_uid_scenario_SystemOutput",
+    "composite": "d9b76b46-84e3-4cf1-7bd4-4e46d4b021bb",
+    "ports": [],
+    "bgColor": "none",
+    "color": "#FFFFFF",
+    "stroke": 1,
+    "radius": 0,
+    "text": "Pesquisa Google",
+    "outlineStroke": 0,
+    "outlineColor": "none",
+    "fontSize": 12,
+    "fontColor": "#000000",
+    "fontFamily": null
+  },
+  {
+    "type": "br.ufsc.leb.uid.scenario.UserInput",
+    "id": "ef2c3cfc-f891-2b39-cec7-31995d93de3a",
+    "x": 336,
+    "y": 112,
+    "width": 43,
+    "height": 23,
+    "alpha": 1,
+    "userData": {
+      "model": "pesquisa"
+    },
+    "cssClass": "br_ufsc_leb_uid_scenario_UserInput",
+    "composite": "d9b76b46-84e3-4cf1-7bd4-4e46d4b021bb",
+    "ports": [],
+    "bgColor": "none",
+    "color": "#000000",
+    "stroke": 1,
+    "radius": 0,
+    "text": "3+1",
+    "outlineStroke": 0,
+    "outlineColor": "none",
+    "fontSize": 12,
+    "fontColor": "#080808",
+    "fontFamily": null
+  },
+  {
+    "type": "br.ufsc.leb.uid.scenario.SystemOutput",
+    "id": "b7e6210c-cf88-0a1b-29d4-aea71cffe818",
+    "x": 349,
+    "y": 75,
+    "width": 50.66666793823242,
+    "height": 23,
+    "alpha": 1,
+    "userData": {
+      "model": "titulo"
+    },
+    "cssClass": "br_ufsc_leb_uid_scenario_SystemOutput",
+    "composite": "d9b76b46-84e3-4cf1-7bd4-4e46d4b021bb",
+    "ports": [],
+    "bgColor": "none",
+    "color": "#FFFFFF",
+    "stroke": 1,
+    "radius": 0,
+    "text": "Google",
+    "outlineStroke": 0,
+    "outlineColor": "none",
+    "fontSize": 12,
+    "fontColor": "#000000",
+    "fontFamily": null
+  },
+  {
+    "type": "br.ufsc.leb.uid.scenario.Interacao",
+    "id": "4f4bea76-0201-e135-bb0d-a170b8b5808f",
+    "x": 37,
+    "y": 78,
+    "width": 190,
+    "height": 141,
+    "alpha": 1,
+    "userData": {
+      "model": "Inicio"
+    },
+    "cssClass": "br_ufsc_leb_uid_scenario_Interacao",
+    "ports": [
+      {
+        "name": "output0",
+        "port": "draw2d.OutputPort",
+        "locator": "br.ufsc.leb.uid.scenario.ResourceLocator"
+      }
+    ],
+    "bgColor": "#FFFFFF",
+    "color": "#000000",
+    "stroke": 1,
+    "radius": 500
+  },
+  {
+    "type": "br.ufsc.leb.uid.scenario.UserInput",
+    "id": "d7ed2020-b738-608c-dbf5-5ba7b399b5c7",
+    "x": 76,
+    "y": 127,
+    "width": 87.61666870117188,
+    "height": 23,
+    "alpha": 1,
+    "userData": {
+      "model": "url"
+    },
+    "cssClass": "br_ufsc_leb_uid_scenario_UserInput",
+    "composite": "4f4bea76-0201-e135-bb0d-a170b8b5808f",
+    "ports": [],
+    "bgColor": "none",
+    "color": "#000000",
+    "stroke": 1,
+    "radius": 0,
+    "text": "http://www.google.com",
+    "outlineStroke": 0,
+    "outlineColor": "none",
+    "fontSize": 12,
+    "fontColor": "#080808",
+    "fontFamily": null
+  },
+  {
+    "type": "br.ufsc.leb.uid.scenario.Transaction",
+    "id": "091f06f6-78d5-c200-5339-13161ca01925",
+    "alpha": 1,
+    "userData": {
+      "text": "Entrar"
+    },
+    "cssClass": "br_ufsc_leb_uid_scenario_Transaction",
+    "stroke": 1,
+    "color": "#000000",
+    "outlineStroke": 0,
+    "outlineColor": "none",
+    "policy": "draw2d.policy.line.LineSelectionFeedbackPolicy",
+    "router": "draw2d.layout.connection.DirectRouter",
+    "radius": 2,
+    "source": {
+      "node": "4f4bea76-0201-e135-bb0d-a170b8b5808f",
+      "port": "output0"
+    },
+    "target": {
+      "node": "d9b76b46-84e3-4cf1-7bd4-4e46d4b021bb",
+      "port": "input0"
+    }
+  },
+  {
+    "type": "br.ufsc.leb.uid.scenario.Transaction",
+    "id": "01842822-158d-1ce3-cc83-9917b6f512c1",
+    "alpha": 1,
+    "userData": {
+      "text": "Pesquisa Google"
+    },
+    "cssClass": "br_ufsc_leb_uid_scenario_Transaction",
+    "stroke": 1,
+    "color": "#000000",
+    "outlineStroke": 0,
+    "outlineColor": "none",
+    "policy": "draw2d.policy.line.LineSelectionFeedbackPolicy",
+    "router": "draw2d.layout.connection.DirectRouter",
+    "radius": 2,
+    "source": {
+      "node": "d9b76b46-84e3-4cf1-7bd4-4e46d4b021bb",
+      "port": "output0"
+    },
+    "target": {
+      "node": "e89ebbc3-94bd-d0fe-8bb4-bcd207654da3",
+      "port": "input0"
+    }
+  }
+]
